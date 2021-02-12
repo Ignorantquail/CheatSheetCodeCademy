@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Cheat Sheet
+    </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ADDED FONTS Montserrat Catamaran Merriweather -->
+  </head>
+  <body>
+    <header>
+      <h1 class="title">
+        Programing Refrences
+      </h1>
+      <nav>
+        <a href="#html" class="selector">Html</a>
+        <a href="#css" class="selector">CSS</a>
+        <a href="" class="selector">JavaScript</a>
+        <a href="" class="selector">Developer Tools</a>
+      </nav>
+    </header>
+    <section class="whatIs">
+      <h2>
+        What is HTML
+      </h2>
+      <article>
+        <p>
+          HTML (HyperText Markup Language) <br />
+          is used to give content to a web page
+          <br />and instructs web browsers on how to<br />
+          structure that content. HTML is the<br />
+          standard markup language for Web pages<br />
+          HTML elements are the building blocks <br />of HTML pages. HTML
+          elements are<br />
+          represented by &lt &gt tags.
+        </p>
+      </article>
+    </section>
+    <section class="htmlTable" id="html">
+      <h2>
+        HTML - Tags I forget
+      </h2>
+      <article>
+        <table>
+          <th>Tag</th>
+          <th>Description</th>
+          <!-- &lt; for <   &gt; for > -->
+          <tr>
+            <td>
+              &lt!DOCTYPE html&gt
+            </td>
+            <td>Tells the browser what version of html is being used.</td>
+          </tr>
+          <tr>
+            <td>
+              &ltlink rel="stylesheet" href="styles.css"&gt
+            </td>
+            <td>
+              Link tags can be used for images by replacing link with img and
+              href to source.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              &ltaudio controls&gt<br />&ltsource src="audio.mp3"&gt<br />
+              &lt/audio&gt
+            </td>
+            <td>
+              This tag is used to add audio.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              &ltvideo src="audio.mp4"<br />
+              controls&gt&lt/video&gt
+            </td>
+            <td>
+              This tag is used to add videos.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              &ltembed src="gif.gif"/&gt
+            </td>
+            <td>
+              This tag can embed any form of media but is primarily used for
+              gifs.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              &ltheader&gt
+            </td>
+            <td>
+              This is one of the many semantic tags and is used to organize
+              pages.
+            </td>
+          </tr>
+          <tr>
+            <td>&ltinput&gt</td>
+            <td>
+              Atributes such as "placeholder" "range" "checkbox" can be added to
+              select input type
+            </td>
+          </tr>
+        </table>
+      </article>
+    </section>
+    <section class="whatIs">
+      <h2>
+        What is CSS
+      </h2>
+      <article class="cssArticle">
+        <p>
+          CSS, or Cascading Style Sheets, is a language<br />
+          that is used in combination with HTML that customizes how HTML
+          elements will appear. CSS can define styles and change the layout
+          <br />and design of a sheet.
+        </p>
+      </article>
+    </section>
+    <section id="css" class="cssTable">
+      <h2>
+        CSS Tags I forget
+      </h2>
+      <article>
+        <table>
+          <th>Tag</th>
+          <th>Description</th>
+          <tr>
+            <td>
+              background-image: url("image.jpeg");
+            </td>
+            <td>
+              This tag is used to set a background image to an html element.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              background-image: linear-gradient(45deg, pink, purple);
+            </td>
+            <td>
+              This tag adds a linear gradient to an elements bcakground.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              filter: opacity(60%);
+            </td>
+            <td>
+              The filter tag changes how elements look, usualy images. Other
+              filter declerations include blur, grayscale, and saturate.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              !important
+            </td>
+            <td>
+              When this is put next to a declaration it over rides any other
+              styles.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              section ol li { };
+            </td>
+            <td>
+              The CSS descendant selector combinator is used to match elements
+              that are descended from another matched selector.
+            </td>
+          </tr>
+        </table>
+      </article>
+    </section>
+  </body>
+</html>
